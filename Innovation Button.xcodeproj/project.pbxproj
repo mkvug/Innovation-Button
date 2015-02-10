@@ -14,9 +14,9 @@
 		83174F111A85CF8A003E6AFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83174F0F1A85CF8A003E6AFC /* LaunchScreen.xib */; };
 		83174F1D1A85CF8A003E6AFC /* Innovation_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174F1C1A85CF8A003E6AFC /* Innovation_ButtonTests.swift */; };
 		83174F271A85CFA6003E6AFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83174F261A85CFA6003E6AFC /* AVFoundation.framework */; };
-		83174F291A85D072003E6AFC /* innovation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83174F281A85D072003E6AFC /* innovation.mp3 */; };
 		83174F2B1A85D1E3003E6AFC /* InnovationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174F2A1A85D1E3003E6AFC /* InnovationButton.swift */; };
 		83174F321A87166F003E6AFC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174F311A87166F003E6AFC /* SwiftyJSON.swift */; };
+		83D93D891A89C22F002EA685 /* innovation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D93D881A89C22F002EA685 /* innovation.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,9 @@
 		83174F1B1A85CF8A003E6AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83174F1C1A85CF8A003E6AFC /* Innovation_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Innovation_ButtonTests.swift; sourceTree = "<group>"; };
 		83174F261A85CFA6003E6AFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		83174F281A85D072003E6AFC /* innovation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = innovation.mp3; path = ../../../../Downloads/innovation.mp3; sourceTree = "<group>"; };
 		83174F2A1A85D1E3003E6AFC /* InnovationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnovationButton.swift; sourceTree = "<group>"; };
 		83174F311A87166F003E6AFC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		83D93D881A89C22F002EA685 /* innovation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = innovation.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		83174F031A85CF8A003E6AFC /* Innovation Button */ = {
 			isa = PBXGroup;
 			children = (
-				83174F281A85D072003E6AFC /* innovation.mp3 */,
+				83D93D881A89C22F002EA685 /* innovation.mp3 */,
 				83174F061A85CF8A003E6AFC /* AppDelegate.swift */,
 				83174F081A85CF8A003E6AFC /* ViewController.swift */,
 				83174F311A87166F003E6AFC /* SwiftyJSON.swift */,
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83174F0C1A85CF8A003E6AFC /* Main.storyboard in Resources */,
-				83174F291A85D072003E6AFC /* innovation.mp3 in Resources */,
+				83D93D891A89C22F002EA685 /* innovation.mp3 in Resources */,
 				83174F111A85CF8A003E6AFC /* LaunchScreen.xib in Resources */,
 				83174F0E1A85CF8A003E6AFC /* Images.xcassets in Resources */,
 			);
@@ -423,6 +423,7 @@
 				83174F221A85CF8A003E6AFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83174F231A85CF8A003E6AFC /* Build configuration list for PBXNativeTarget "Innovation ButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +432,7 @@
 				83174F251A85CF8A003E6AFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
